@@ -107,7 +107,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-dark text-text">
       {/* Navigation */}
-      <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${
+      <nav className={`px-[1.5rem] lg:px-0 fixed top-0 w-full z-50 transition-all duration-500 ${
         isScrolled ? 'glass shadow-2xl border-0' : 'bg-transparent'
       }`}>
         <div className="container-custom">
@@ -146,7 +146,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section - Improved Layout */}
-      <section id="home" className="min-h-screen flex items-center relative overflow-hidden">
+      <section id="home" className="section-padding min-h-screen flex items-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-darker via-dark to-darker"></div>
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl animate-pulse"></div>
