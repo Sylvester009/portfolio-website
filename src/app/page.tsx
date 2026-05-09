@@ -56,6 +56,24 @@ export default function Home() {
       githubUrl: 'https://github.com/Sylvester009/portfolio-website',
       liveUrl: 'https://ninestarx-page.vercel.app',
     },
+    
+    {
+      title: 'Meatopia',
+      image: '/images/Meatopia.png',
+      description:
+        'Production-ready e-commerce platform for a local butcher business with dynamic cart functionality, Paystack payment integration, and server-side payment verification.',
+      technologies: [
+        'React',
+        'Next.js',
+        'TypeScript',
+        'CSS',
+        'Paystack',
+        'Nodemailer',
+      ],
+      category: 'Full Stack',
+      githubUrl: 'https://github.com/Sylvester009/meatopia',
+      liveUrl: 'https://meatopia.com.ng',
+    },
 
     {
       title: 'WorkNest',
